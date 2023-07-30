@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'; 
+import Link from 'next/link';
 import logoImage from '../public/logo.svg';
 
 const Navbar = () => {
@@ -10,9 +11,9 @@ const Navbar = () => {
         <h1 className="nav-title">focuscoin</h1>
       </div>
       <nav>
-        <a href="/login">Login</a>
-        <a href="/signup">Signup</a>
-        <a href="/wallet">Wallet</a>
+        <Link href="/login">Login</Link>
+        <Link href="/signup">Signup</Link>
+        <Link href="/wallet">Wallet</Link>
       </nav>
     </header>
   );
