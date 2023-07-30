@@ -32,15 +32,27 @@ body {
   padding: 5px 100px; /* Adjust the top and bottom padding here (5px top, 20px right, 5px bottom, 20px left) */
 }
 
-/* .logo {
-  font-size: 20px;
-  font-weight: 600;
-} */
-
 .logo {
-  font-size: 24px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.bold-text {
   font-weight: bold;
-  margin-bottom: 10px; /* Add some spacing between logo and links */
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-right: 1rem; 
+  max-width: 100%; /* Set the maximum width to 100% */
+  height: auto; /* Auto
+}
+
+.nav-title {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  flex: 1; /* Allow the title to take up the remaining space */
 }
 
 nav a {
@@ -55,10 +67,10 @@ nav {
 
 .title {
   font-weight: 700; /* Use the font weight value for semi-bold, 700 is typically used for bold */
-  font-size: 5rem; /* Use relative font size, adjust as needed */
+  font-size: 7rem; /* Use relative font size, adjust as needed */
   text-align: center;
   line-height: 0.7; /* Adjust the line-height as needed */
-
+  padding-top: 2rem;
 }
 
 .subtitle {
