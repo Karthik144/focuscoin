@@ -2,14 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Handjet';
   color: white; /* Set text color to white */
 }
 
-@font-face {
-  font-family: 'Handjet';
-  src: url('https://fonts.gstatic.com/s/handjet/v8/Hj_QSm56GnOHK5MzN6ZIqQ.woff2') format('woff2');
-}
 
 a {
   color: inherit;
@@ -35,6 +30,7 @@ body {
 .logo {
   display: flex;
   align-items: center; /* Center items vertically */
+  font-family: 'Handjet';
 }
 
 .bold-text {
@@ -43,15 +39,15 @@ body {
 
 .nav-logo {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center;
   margin-right: 1rem; 
-  max-width: 100%; /* Set the maximum width to 100% */
-  height: auto; /* Auto
+  max-width: 100%; 
+  height: auto; 
 }
 
 .nav-title {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center;
   flex: 1; /* Allow the title to take up the remaining space */
 }
 
@@ -66,18 +62,21 @@ nav {
 }
 
 .title {
-  font-weight: 700; /* Use the font weight value for semi-bold, 700 is typically used for bold */
+  font-weight: 700; 
   font-size: 7rem; /* Use relative font size, adjust as needed */
   text-align: center;
-  line-height: 0.7; /* Adjust the line-height as needed */
+  line-height: 0.7; 
   padding-top: 2rem;
+  font-family: 'Handjet';
 }
 
 .subtitle {
-  font-weight: 400; /* Use the font weight value for regular, in this case, 400 */
+  font-weight: 400; 
   font-size: 3rem; /* Use relative font size, adjust as needed */
   text-align: center;
-  line-height: 0.5; /* Adjust the line-height as needed */
+  line-height: 0.5; 
+  font-family: 'Handjet';
+
 }
 
 /* Media query for smaller screen sizes */
