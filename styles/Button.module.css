@@ -1,0 +1,16 @@
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Use margin auto to center the button horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; /* Adjust the font-size to make the button larger or smaller */
+    font-family: 'Handjet'; /* Use the 'Handjet' font */
+
+}

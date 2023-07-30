@@ -1,0 +1,85 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Handjet';
+  color: white; /* Set text color to white */
+}
+
+@font-face {
+  font-family: 'Handjet';
+  src: url('https://fonts.gstatic.com/s/handjet/v8/Hj_QSm56GnOHK5MzN6ZIqQ.woff2') format('woff2');
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f15a59;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f15a59;
+  padding: 5px 100px; /* Adjust the top and bottom padding here (5px top, 20px right, 5px bottom, 20px left) */
+}
+
+/* .logo {
+  font-size: 20px;
+  font-weight: 600;
+} */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Add some spacing between logo and links */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  font-weight: 700; /* Use the font weight value for semi-bold, 700 is typically used for bold */
+  font-size: 5rem; /* Use relative font size, adjust as needed */
+  text-align: center;
+  line-height: 0.7; /* Adjust the line-height as needed */
+
+}
+
+.subtitle {
+  font-weight: 400; /* Use the font weight value for regular, in this case, 400 */
+  font-size: 3rem; /* Use relative font size, adjust as needed */
+  text-align: center;
+  line-height: 0.5; /* Adjust the line-height as needed */
+}
+
+/* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .title {
+    line-height: 1.0; /* Adjust the line-height for smaller screens */
+  }
+
+  .subtitle {
+    line-height: 0.8; /* Adjust the line-height for smaller screens */
+  }
+
+  nav {
+    flex-direction: row; /* Horizontal layout for links on smaller screens */
+    gap: 20px;
+  }
+}
