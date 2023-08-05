@@ -84,10 +84,12 @@ nav {
 @media screen and (max-width: 768px) {
   .title {
     line-height: 1.0; /* Adjust the line-height for smaller screens */
+    font-size: 5rem; 
   }
 
   .subtitle {
     line-height: 0.8; /* Adjust the line-height for smaller screens */
+    font-size: 1rem; 
   }
 
   nav {
