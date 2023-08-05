@@ -8,7 +8,7 @@ export default function Home() {
 
   const handleButtonClick = () => {
     // Redirect to the target URL
-    window.location.href = 'https://buprfe75fvn.typeform.com/to/ZT4B90kf';
+    window.location.href = 'https://forms.gle/S6446BTZ8JueLWNe6';
   };
 
 
