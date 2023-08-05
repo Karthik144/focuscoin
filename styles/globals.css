@@ -94,4 +94,12 @@ nav {
     flex-direction: row; /* Horizontal layout for links on smaller screens */
     gap: 20px;
   }
+
+  .nav-title {
+    font-size: 1rem;
+  }
+
+  a {
+    margin-left: 0.5rem;
+  }
 }
